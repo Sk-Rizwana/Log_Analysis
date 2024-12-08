@@ -105,6 +105,6 @@ def analyze_log_file(log_file_path, failed_login_threshold=2, csv_file_path="log
         print(f"An error occurred: {e}")
 
 # Specifying the path to the log file and CSV file
-log_file_path = r"C:\Users\user\Desktop\log_file\sample_log.txt"  # Path to the log file
+log_file_path = r"D:\Git\Log_Analysis\log_file\sample_log.txt"  # Path to the log file
 # Calling the function to analyze the log file
-analyze_log_file(log_file_path, failed_login_threshold=2, csv_file_path=r"C:\Users\user\Desktop\log_file\log_analysis_results.csv")
+analyze_log_file(log_file_path, failed_login_threshold=2, csv_file_path=r"D:\Git\Log_Analysis\log_file\log_analysis_results.csv")
